@@ -1,0 +1,26 @@
+# Build output
+app/build/bin/
+app/frontend/dist/
+app/app
+
+# Dependencies
+node_modules/
+
+# Wails caches
+app/frontend/package.json.md5
+
+# Local tooling / per-machine config (contains local paths)
+.claude/
+.vscode/
+.idea/
+
+# Original Claude Design wireframe page and its generated runtime (not ours to publish).
+# The repo carries wireframes/wireframes.png instead.
+wireframes/support.js
+wireframes/*.dc.html
+wireframes/.thumbnail
+
+# OS / editor noise
+.DS_Store
+*.log
+*.swp
